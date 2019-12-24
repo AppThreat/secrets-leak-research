@@ -4,7 +4,6 @@ on:
   push:
     branches:
     - release/*
-    - master
   schedule:
   - cron: "0 */12 * * *"
 
