@@ -1,0 +1,13 @@
+https://github.com/monicahq/monica.git
+https://github.com/discordjs/discord.js.git
+https://github.com/naptha/tesseract.js.git
+https://github.com/ionic-team/ionic.git
+https://github.com/outline/outline.git
+https://github.com/liyasthomas/postwoman.git
+https://github.com/flutter/flutter.git
+https://github.com/slackhq/nebula.git
+https://github.com/hyperledger/fabric.git
+https://github.com/gin-gonic/gin.git
+https://github.com/bridgecrewio/checkov.git
+https://github.com/ytdl-org/youtube-dl.git
+https://github.com/microsoft/nni.git
