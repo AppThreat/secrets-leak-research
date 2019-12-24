@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-
-ARGS="--disk --threads=4 --redact"
+set -e
+ARGS="--disk --threads=1 --redact"
 BIN_NAME="gitleaks_bin/gitleaks"
 
 mkdir -p gitleaks_bin reports
