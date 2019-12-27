@@ -25,5 +25,10 @@ for i in `cat repo-list.txt`; do
 done
 
 rm -rf repos gitleaks_bin
-cat reports/*-l.json > reports/full-report.json
-ls -lh reports
+if [ -z "$(ls -A reports)" ]; then
+    echo "No secrets leaked"
+else
+    cat reports/*-l.json > reports/full-report.json
+    ls -lh reports
+fi
+
